@@ -3,5 +3,4 @@ const transpose = function(matrix) {
   matrix[0].map((columns, i) => newArr.push(matrix.map(rows => rows[i])));
   return newArr;
 };
-
 module.exports = { transpose };
